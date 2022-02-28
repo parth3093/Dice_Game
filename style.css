@@ -1,0 +1,92 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #222b5f;
+}
+
+.dice h1 {
+  color: #ffc606;
+  font-size: 3rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.btn {
+  position: relative;
+  background-color: #7cd202;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 2rem;
+  padding: 10px 5px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 4rem;
+}
+.winner-conatiner {
+  background-color: #0066ff;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  min-height: 12rem;
+  min-width: 13rem;
+}
+
+.winner-conatiner h1 {
+  margin: 1rem 2rem;
+  color: #ffc606;
+}
+
+.winner-conatiner h2 {
+  margin: 2.2rem auto;
+  color: #ffc606;
+}
+
+.player-container {
+  background-color: #0066ff;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  min-height: 12rem;
+  min-width: 13rem;
+}
+
+.player-container h1 {
+  margin: 1rem 2rem;
+  color: #ffc606;
+}
+
+.player-container h2 {
+  margin: 1rem auto;
+  color: #ffc606;
+}
+
+img {
+  width: 80%;
+}
